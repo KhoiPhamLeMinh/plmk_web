@@ -240,3 +240,157 @@ footer {
     font-size: 24px;
   }
 }
+
+.image-intro img {
+  width: 500px; /* chỉnh nhỏ lại ở đây */
+  height: auto;
+  border-radius: 10px;
+}
+.virus-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* chia đều 50-50 */
+  gap: 40px;
+  align-items: center;
+  background: transparent; /* bỏ box đen */
+  box-shadow: none; /* bỏ bóng */
+  padding: 0; /* bỏ padding dư */
+  backdrop-filter: none;
+}
+
+.virus-image img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.virus-content {
+  flex: 1;
+}
+
+.transmission-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px; /* tăng khoảng cách cho thoáng */
+  align-items: center;
+  background: transparent;
+  padding: 20px 0;
+}
+
+.transmission-content {
+  line-height: 1.8; /* text giãn đều hơn */
+  font-size: 16px;
+}
+
+.transmission-content p {
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+.transmission-content ol {
+  margin-left: 20px;
+  line-height: 1.8;
+}
+
+.transmission-image {
+  display: flex;
+  justify-content: center; /* căn giữa hình */
+}
+
+.transmission-image img {
+  width: 75%; /* nhỏ còn 75% */
+  border-radius: 15px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+.factors-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  background: transparent;
+  padding: 20px 0;
+}
+
+.factors-content {
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.factors-content ul {
+  margin-left: 20px;
+}
+
+.factors-content li {
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+.factors-image {
+  display: flex;
+  justify-content: center;
+}
+
+.factors-image img {
+  width: 75%;
+  border-radius: 15px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+.symptoms-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  background: transparent;
+  padding: 20px 0;
+}
+
+.symptoms-content {
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.symptoms-content p {
+  margin-bottom: 15px;
+}
+
+.symptoms-content ul {
+  margin-left: 20px;
+}
+
+.symptoms-content li {
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+.symptoms-image {
+  display: flex;
+  justify-content: center;
+}
+
+.symptoms-image img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+.content-with-image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  background: transparent;
+}
+.text-content {
+  flex: 2;
+  text-align: justify;
+}
+.image-content {
+  flex: 1;
+  text-align: right;
+}
+.image-content img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+}
