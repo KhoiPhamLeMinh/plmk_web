@@ -374,6 +374,12 @@ footer {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
 }
 
+.page-section.mosquito-section {
+  background: transparent !important;
+  backdrop-filter: none !important;
+  box-shadow: none !important;
+}
+
 .content-with-image {
   display: flex;
   align-items: flex-start;
@@ -393,4 +399,86 @@ footer {
   width: 100%;
   max-width: 280px;
   height: auto;
+}
+
+.trieu-chung-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  background: transparent;
+  padding: 20px 0;
+}
+
+.trieu-chung-content {
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.trieu-chung-content ul {
+  margin-left: 20px;
+}
+
+.trieu-chung-content li {
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+.trieu-chung-image {
+  display: flex;
+  justify-content: center;
+}
+
+.trieu-chung-image img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+.page-section.trieu-chung-section {
+  background: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.bien-chung-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.bien-chung-content {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.bien-chung-content ul {
+  margin-left: 20px;
+}
+
+.bien-chung-content li {
+  margin-bottom: 12px;
+}
+
+.bien-chung-image {
+  display: flex;
+  justify-content: center;
+}
+
+.bien-chung-image img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+.page-section.hau-qua {
+  background: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
 }
